@@ -1,0 +1,95 @@
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f1e5; /* Бежевый фон */
+  color: #333;
+  margin: 0;
+}
+
+/* Шапка сайта */
+header {
+  background-color: #f28482; /* Розовый */
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Навигационное меню */
+nav ul {
+  background-color: #f0c38e; /* Песочный */
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #e8aa85; /* Темно-песочный */
+}
+
+/* Основной контент */
+main {
+  padding: 20px;
+}
+
+/* Секции */
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #e3d1c1; /* Светло-коричневый */
+  border-radius: 5px;
+}
+
+/* Стили для картинок */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Подвал */
+footer {
+  background-color: #f28482; /* Розовый */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ссылки */
+a {
+  color: #bf5050; /* Темно-красный */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8e3737; /* Красный */
+}
+/* Стили для картинок */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+/* Добавьте этот код в ваш файл styles.css */
+
+/* Стили для картинок в статьях */
+article img {
+  max-width: 100%; /* Максимальная ширина изображения в пределах родительского элемента */
+  height: auto; /* Автоматическое изменение высоты для поддержания пропорций */
+  display: block; /* Убирает лишние пробелы вокруг изображения */
+  margin: 0 auto; /* Выравнивание по центру */
+}
+
+/* Определите размер изображения по вашему выбору (например, 300px x 200px) */
+article img {
+  width: 500px; /* Ширина изображения */
+  height: 350px; /* Высота изображения */
+}
